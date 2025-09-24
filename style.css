@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mystery Quest', serif, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000; /* makes sure it’s above the menu */
+}
+
+.leaf-icon {
+  width: 40px;
+  height: auto;
+}
+#menu {
+  position: absolute;
+  top: 60px; 
+  left: 10px;
+  background: #f0ffe6;
+  border: 2px solid #cce0cc;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Links inside menu */
+#menu a {
+  text-decoration: none;
+  color: #336633;
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
